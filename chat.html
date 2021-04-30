@@ -1,0 +1,40 @@
+<!docytpe html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="chatdesign.css"/>
+	<title>My Webpage</title>
+</head>
+<body>
+	<header>
+	<h1>Chat Site</h1>
+	</header>
+	<h2>Important Development Info</h2>
+		<p><strong>This will be a future chat site.</strong> With further web development knowledge, and javascript usase, this will become a chat pod.</p>
+	<section>
+		<h2>Welcome to hello.com! Here you can chat with other users.</h2>
+		<button onclick="document.location='login.html'">Already have an account? Click here</button>
+		<h2>Create account for chatting</h2>
+		<form>
+		<h3>Are you a coder?</h3>
+		<input type="radio" name="coderq" value="yes" /> Yes <br/>
+		<input type="radio" name="coderq" value="no" /> No <br/>
+		<h3>Enter username</h3>
+		<input id="username" type="text" />
+		<h3>Enter email</h3>
+		<input type="email" />
+		<h3>Enter password</h3>
+		<input type="password" />
+		<button onclick="saveInfo();">Submit</button>
+		</form>
+	</section>
+	<script>
+	function saveInfo() {
+	var username = document.getElementById("username").value;
+	var useremail = document.getElementByType("email").value;
+	var userpassword = document.getElementByType("password").value;
+	alert("Account creation successful! Now log in to chat!");
+	}
+	</script>
+</body>
+</html>
