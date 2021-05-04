@@ -1,0 +1,20 @@
+body {
+		background-color: #ff5900;
+		color: white;
+		text-align: center;
+		font: 14px Tahoma;
+}
+#account {
+	border: 3px solid blue;
+	margin-right: 200px;
+	margin-left: 200px;
+	border-radius: 15px;
+}
+#info {
+	border: 2px dashed yellow;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	margin-right: 200px;
+	margin-left: 200px;
+	
+}
