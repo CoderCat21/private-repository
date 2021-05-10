@@ -7,5 +7,5 @@ submitBtn.addEventListener(() => {
 });
 
 signInBtn.addEventListener(() => {
-	window.location = "signup.html";
+	window.location = "signIn.html";
 });
