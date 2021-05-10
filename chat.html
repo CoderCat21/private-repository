@@ -16,7 +16,7 @@
 	<div id="account" >
 	<section>
 		<h2>Welcome to hello.com! Here you can chat with other users.</h2>
-		<button onclick="document.location='login.html'">Already have an account? Click here</button>
+		<button class = "cta-sign-in">Already have an account? Click here</button>
 		<h2>Create account for chatting</h2>
 		<form>
 		<h3>Are you a coder?</h3>
@@ -28,17 +28,10 @@
 		<input type="email" />
 		<h3>Enter password</h3>
 		<input type="password" />
-		<button onclick="saveInfo();">Submit</button>
+		<button class = "cta-submit">Submit</button>
 		</form>
 	</section>
 	</div>
-	<script>
-	function saveInfo() {
-	var username = document.getElementById("username").value;
-	var useremail = document.getElementByType("email").value;
-	var userpassword = document.getElementByType("password").value;
-	alert("Account creation successful! Now log in to chat!");
-	}
-	</script>
+	
 </body>
 </html>
